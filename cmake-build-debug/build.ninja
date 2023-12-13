@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_cpp_yandex: phony || CMakeFiles/cpp_yand
 
 build CMakeFiles/cpp_yandex.dir/main.cpp.o: CXX_COMPILER__cpp_yandex_unscanned_Debug /Users/comrade77/CLionProjects/cpp_yandex/main.cpp || cmake_object_order_depends_target_cpp_yandex
   DEP_FILE = CMakeFiles/cpp_yandex.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cpp_yandex.dir
   OBJECT_FILE_DIR = CMakeFiles/cpp_yandex.dir
   TARGET_COMPILE_PDB = CMakeFiles/cpp_yandex.dir/
@@ -66,7 +66,7 @@ build CMakeFiles/cpp_yandex.dir/main.cpp.o: CXX_COMPILER__cpp_yandex_unscanned_D
 # Link the executable cpp_yandex
 
 build cpp_yandex: CXX_EXECUTABLE_LINKER__cpp_yandex_Debug CMakeFiles/cpp_yandex.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/cpp_yandex.dir
   POST_BUILD = :
   PRE_LINK = :
